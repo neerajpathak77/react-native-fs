@@ -1,7 +1,7 @@
 {
-  "name": "react-native-fs",
-  "version": "2.11.15",
-  "description": "Native filesystem access for react-native",
+  "name": "react-native-fs-local-copy",
+  "version": "1.1.0",
+  "description": "local copy of react-native-fs. please igonre this and refer to original publisher thanks",
   "main": "FS.common.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:itinance/react-native-fs.git"
+    "url": "git+ssh://git@github.com/itinance/react-native-fs.git"
   },
   "keywords": [
     "react-component",
@@ -39,5 +39,9 @@
     "react": "^16.0.0",
     "react-native": "^0.51.0",
     "prop-types": "15.6.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/itinance/react-native-fs/issues"
+  },
+  "homepage": "https://github.com/itinance/react-native-fs#readme"
 }
